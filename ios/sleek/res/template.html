@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+strong {
+	color:#ffffff;
+}
+div.title {
+	color:#000000;
+	text-align:center;
+	font-family:Arial;
+	padding:6px;
+	font-size:16pt;
+}
+
+div.header {
+	margin-bottom:4px;
+	color:red;
+	padding:4px;
+	border-top:1px dashed #333333;
+	background:#dddddd;
+}
+span.nick {
+	float:left;
+	color:#116611;
+	font-family:Helvetica;
+}
+span.date {
+	float:right;
+	color:#444444;
+	font-family:Helvetica;
+}
+span.dateNew {
+	float:right;
+	color:#4444ff;
+	font-family:Helvetica;
+}
+div.attach {
+	background:#eeeeee;
+	font-family:Arial;
+	margin:4px;
+}
+div.thread {
+	background:#ffffff;
+	color:#000000;
+	margin:4px;
+	font-family:Arial;
+	font-size:$FS_BODY$px;
+}
+div.reply {
+	padding:4px;
+	border:1px solid #6666ff;
+	background:#ccccff;
+	font-family:Arial;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:30%;
+}
+a.image {
+	color:#009080
+}
+a.unkfile {
+	color:#ff0000
+}
+</style>
+<script>
+function afterLoad()
+{
+//document.body.style.webkitTouchCallout='none';
+//document.body.style.KhtmlUserSelect='none';
+}
+function showImage(n,url)
+{
+	var e = document.getElementById('i'+n);
+	e.innerHTML = '<img src="'+url+'">';
+}
+</script>
+</head>
+<body onload="afterLoad()">
+$$BODY$$
+<!--
+<hr/><br/><br/>
+<div class="reply"><a href="sleek:reply">댓글 쓰기</a></div>
+<br/><br/>
+-->
+</body></html>

@@ -1,0 +1,13 @@
+Dependency libraries:
+
+* ECSlidingViewController
+
+	https://github.com/ECSlidingViewController/ECSlidingViewController
+
+	copy 'ECSlidingViewController' folder
+
+* MBProgressHUD
+
+	https://github.com/jdg/MBProgressHUD
+
+	Just download MBProgressHUD.m and .h
